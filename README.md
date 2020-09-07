@@ -29,7 +29,16 @@ I also created a dataframe to pull out the 'most desirable cities' based on max 
 Conclusion:
 In conclusion, there were two things that were learned from this project. The best cities in the world to visit based on the weather and the random 500+ cities that were used. The second was that humidity and the location to the equator don't have a relationship.  
 
-Some of the cities that have 100 humidity are in the US or Canada. For example, on the latest run that I pulled five cities were in Canada and three in the US. Additionally, those cities had a max temps between 50-60. Based on the cloud ratio of about 90, I'd say a lot of that humidity was from moisture in the air.
+Observable Trends:
+
+Observable Trend One: 
+The first observable trend is that there seems to be a lot more cities in the northern part of the hemisphere. At least, a majority of the cities that are pulling are in the north. Each time I've run the numbers, I'll get many more cities in the northern hemisphere.
+
+Observable Trend Two: 
+The second observable trend is cloudiness. It seems to be something all cities get no matter where it's located in the world. The cloudiness scatter plot is very diverse. Many cities have very low clouds or a lot of clouds and then there are cities that fall in between. Cities that have the highest clouds aren't always the warmest, which makes sense since they block out the sun.
+
+Observable Trend Three: 
+Lastly, the most humid cities aren't always the closest to the equator as you would assume. Some of the cities that have 100 humidity are in the US or Canada. For example, on the latest run that I pulled five cities were in Canada and three in the US. Additionally, those cities had a max temps between 50-60. Based on the cloud ratio of about 90, I'd say a lot of that humidity was from moisture in the air.
 
 Tools used: API calls, Pandas, JSON, Numpy, Matplotlib, gmaps, scipy.stats, citypy
 
