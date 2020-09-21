@@ -34,6 +34,8 @@ I also created a dataframe to pull out the 'most desirable cities' based on max 
 Conclusion:
 In conclusion, there were two things that were learned from this project. The best cities in the world to visit based on the weather and the random 500+ cities that were used. The second was that humidity and the location to the equator don't have a relationship.  
 
+![dataframe of data of cities](https://github.com/EmmaLimoli/api-python-challenge/blob/master/weather_py/output_data/Screen%20Shot%202020-07-21%20at%2011.02.21%20AM.png)
+
 Observable Trends:
 
 Observable Trend One: 
@@ -44,6 +46,8 @@ The second observable trend is cloudiness. It seems to be something all cities g
 
 Observable Trend Three: 
 Lastly, the most humid cities aren't always the closest to the equator as you would assume. Some of the cities that have 100 humidity are in the US or Canada. For example, on the latest run that I pulled five cities were in Canada and three in the US. Additionally, those cities had a max temps between 50-60. Based on the cloud ratio of about 90, I'd say a lot of that humidity was from moisture in the air.
+
+![heat map with markers](https://github.com/EmmaLimoli/api-python-challenge/blob/master/weather_py/output_data/Screen%20Shot%202020-07-21%20at%2011.03.21%20AM.png)
 
 Tools used: API calls, Pandas, JSON, Numpy, Matplotlib, gmaps, scipy.stats, citypy
 
