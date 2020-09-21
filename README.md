@@ -5,7 +5,7 @@ The goal for this project was to analze 500+ cities around the world and their r
 
 In a world that is warming rapidly, I wanted to analyze the relationship between cities near the equator and their levels of humidity, cloudiness, maximum temperature, and wind speed. The main question I wanted to ask was if there was a relationship between humidity and the location to the equator. 
 
-Once it was completed, I took that data and created a live website with it. This can be found in Web Design (https://github.com/EmmaLimoli/web-design-challenge). 
+Once it was completed, I took that data and created a live website with it. This can be found in [Web Design](https://github.com/EmmaLimoli/web-design-challenge). 
 
 
 How Was This Achieved Part One (WeatherPy):
