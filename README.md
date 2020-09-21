@@ -1,6 +1,6 @@
-The Perfect Weather For A Vacation
+<h1>The Perfect Weather For A Vacation</h1>
 
-The Goal:
+<strong>The Goal:</strong
 The goal for this project was to analze 500+ cities around the world and their relationship to the equator. The second part of the project was to find the perfect city for a vacation based on my ideal weather. 
 
 In a world that is warming rapidly, I wanted to analyze the relationship between cities near the equator and their levels of humidity, cloudiness, maximum temperature, and wind speed. The main question I wanted to ask was if there was a relationship between humidity and the location to the equator. 
@@ -10,7 +10,7 @@ Once it was completed, I took the [cleaned CSV](https://github.com/EmmaLimoli/ap
 ![website](https://github.com/EmmaLimoli/web-design-challenge/blob/master/Resources/assets/images/Screen%20Shot%202020-09-21%20at%202.30.39%20PM.png)
 
 
-How Was This Achieved Part One (WeatherPy):
+<strong>How Was This Achieved Part One [(WeatherPy)](https://github.com/EmmaLimoli/api-python-challenge/tree/master/weather_py):</strong>
 To analyze the data, I created scatterplots with and without linear regression. I looked at the four areas as aforementioned and created scatterplots to analyze the relationship between the equator and the 500 cities. 
 
 The first step was to add in the depenedencies such as Matplotlib, Pandas, Numpy, Requests, API keys, CitiPy, and SciPy. These would help to analyze the data efficiently and effectively. I set up my weather API key to pull the weather and then I created a loop to pull the cities.
@@ -26,28 +26,28 @@ The eight other scatterplots had linear regression. I divided up the north and s
 ![north hemisphere of humitidy latitude and linear regression](https://github.com/EmmaLimoli/api-python-challenge/blob/master/weather_py/output_data/nhemHumLatReg.png)
 ![humidity vs latitude](https://github.com/EmmaLimoli/api-python-challenge/blob/master/weather_py/output_data/humidVlatinworld.png)
 
-How Was This Achieved Part Two (VacationPy):
+<strong>How Was This Achieved Part Two [(VacationPy)](https://github.com/EmmaLimoli/api-python-challenge/tree/master/vacation_py):</strong>
 In the second part, I used the created clean data CSV to create heat maps to gain a better understanding of where these cities were located. This heat map, which was used with a configured map from Gmaps, showed the relationship between the lat/lng and the humidity. This helped to create a better visualization to analyze. 
 
 I also created a dataframe to pull out the 'most desirable cities' based on max temps and humidity. For those who would like to stay in those places, I then used Google APIs, specifically Place, to pull up the best hotels in the area to stay in. I used a for loop to pull all of those hotels, created an additional column, and then put them into a dataframe. Lastly, I created another map to point out where all of the hotels are and used marker layers to identify them easier.
 
-Conclusion:
+<strong>Conclusion:</strong>
 In conclusion, there were two things that were learned from this project. The best cities based in the world to visit based on the weather. The second was that humidity and the location to the equator don't have a relationship.  
 
 ![dataframe of data of cities](https://github.com/EmmaLimoli/api-python-challenge/blob/master/weather_py/output_data/Screen%20Shot%202020-07-21%20at%2011.02.21%20AM.png)
 
-Observable Trends:
+<strong>Observable Trends:</strong>
 
-Observable Trend One: 
+<strong>Observable Trend One:</strong> 
 The first observable trend is that there seems to be a lot more cities in the northern part of the hemisphere. At least, a majority of the cities that are pulling are in the north. Each time I've run the numbers, I'll get many more cities in the northern hemisphere.
 
-Observable Trend Two: 
+<strong>Observable Trend Two:</strong> 
 The second observable trend is cloudiness. It seems to be something all cities get no matter where it's located in the world. The cloudiness scatter plot is very diverse. Many cities have very low clouds or a lot of clouds and then there are cities that fall in between. Cities that have the highest clouds aren't always the warmest, which makes sense since they block out the sun.
 
-Observable Trend Three: 
+<strong>Observable Trend Three:</strong> 
 Lastly, the most humid cities aren't always the closest to the equator as you would assume. Some of the cities that have 100 humidity are in the US or Canada. For example, on the latest run that I pulled five cities were in Canada and three in the US. Additionally, those cities had a max temps between 50-60. Based on the cloud ratio of about 90, I'd say a lot of that humidity was from moisture in the air.
 
 ![heat map with markers](https://github.com/EmmaLimoli/api-python-challenge/blob/master/weather_py/output_data/Screen%20Shot%202020-07-21%20at%2011.03.21%20AM.png)
 
-Tools used: API calls, Pandas, JSON, Numpy, Matplotlib, gmaps, scipy.stats, citypy
+<strong>Tools used: API calls, Pandas, JSON, Numpy, Matplotlib, gmaps, scipy.stats, citypy</strong>
 
