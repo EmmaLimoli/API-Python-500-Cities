@@ -7,7 +7,7 @@ In a world that is warming rapidly, I wanted to analyze the relationship between
 
 Once it was completed, I took that [cleaned CSV](https://github.com/EmmaLimoli/api-python-challenge/blob/master/weather_py/output_data/weatherPy_clean_data.csv) and created a live website with it. This can be found in [Web Design](https://github.com/EmmaLimoli/web-design-challenge). 
 
-![plotted cities throughout the world](https://github.com/EmmaLimoli/api-python-challenge/blob/master/weather_py/output_data/Screen%20Shot%202020-07-21%20at%2011.03.37%20AM.png)
+![north hemisphere of humitidy latitude and linear regression](https://github.com/EmmaLimoli/api-python-challenge/blob/master/weather_py/output_data/nhemHumLatReg.png)
 
 
 How Was This Achieved Part One (WeatherPy):
