@@ -1,6 +1,6 @@
 <h1>The Perfect Weather For A Vacation</h1>
 
-<strong>The Goal:</strong
+<strong>The Goal:</strong>
 The goal for this project was to analze 500+ cities around the world and their relationship to the equator. The second part of the project was to find the perfect city for a vacation based on my ideal weather. 
 
 In a world that is warming rapidly, I wanted to analyze the relationship between cities near the equator and their levels of humidity, cloudiness, maximum temperature, and wind speed. The main question I wanted to ask was if there was a relationship between humidity and the location to the equator. 
