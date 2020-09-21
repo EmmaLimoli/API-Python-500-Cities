@@ -7,7 +7,7 @@ In a world that is warming rapidly, I wanted to analyze the relationship between
 
 Once it was completed, I took that [cleaned CSV](https://github.com/EmmaLimoli/api-python-challenge/blob/master/weather_py/output_data/weatherPy_clean_data.csv) and created a live website with it. This can be found in [Web Design](https://github.com/EmmaLimoli/web-design-challenge). 
 
-![north hemisphere of humitidy latitude and linear regression](https://github.com/EmmaLimoli/api-python-challenge/blob/master/weather_py/output_data/nhemHumLatReg.png)
+![website](https://github.com/EmmaLimoli/web-design-challenge/blob/master/Resources/assets/images/Screen%20Shot%202020-09-21%20at%202.30.39%20PM.png)
 
 
 How Was This Achieved Part One (WeatherPy):
@@ -22,6 +22,9 @@ After, I used describe in Python to calculate the mean, STD, minimum and maximum
 Once that was complete, I exported another CSV that was clean. Now is when I created 12 scatterplots. The first four were regular scatterplots analyzing the latitude vs. the factors such as max temperature, humidity, cloudiness, and wind speed. I also included little blurbs to analyze each factor. To keep the scatterplots apart, I used color coding so they didn't look exactly the same. I also saved these figures to use on the website.
 
 The eight other scatterplots had linear regression. I divided up the north and south hemispheres, so each scatterplot analyzed one of the factors and the north or south hemisphere. This helped to show more clearly the relationship between cities north and south of the equator and how their weather was affected. All of the scatterplots were saved and I used color coding to keep them separate and easily viewed.
+
+![north hemisphere of humitidy latitude and linear regression](https://github.com/EmmaLimoli/api-python-challenge/blob/master/weather_py/output_data/nhemHumLatReg.png)
+![humidity vs latitude](https://github.com/EmmaLimoli/api-python-challenge/blob/master/weather_py/output_data/humidVlatinworld.png)
 
 How Was This Achieved Part Two (VacationPy):
 In the second part, I used the created clean data CSV to create heat maps to gain a better understanding of where these cities were located. This heat map, which was used with a configured map from Gmaps, showed the relationship between the lat/lng and the humidity. This helped to create a better visualize to analyze. 
